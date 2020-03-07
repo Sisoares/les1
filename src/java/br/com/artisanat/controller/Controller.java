@@ -5,12 +5,22 @@
  */
 package br.com.artisanat.controller;
 
+import br.com.artisanat.command.AlterarCommand;
+import br.com.artisanat.command.ConsultarCommand;
+import br.com.artisanat.command.ExcluirCommand;
 import br.com.artisanat.command.ICommand;
+import br.com.artisanat.command.SalvarCommand;
+import br.com.artisanat.entidade.EntidadeDominio;
+import br.com.artisanat.viewhelper.BandeiraCartaoViewHelper;
+import br.com.artisanat.viewhelper.ClienteViewHelper;
+import br.com.artisanat.viewhelper.PaisViewHelper;
+import br.com.artisanat.viewhelper.TipoLogradouroViewHelper;
 import java.util.HashMap;
 import java.util.Map;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import br.com.artisanat.viewhelper.helper.cliente;
 
 /**
  *
@@ -34,11 +44,11 @@ public class Controller extends HttpServlet {
         commands.put("CONSULTAR", new ConsultarCommand());
         
         this.viewHelpers = new HashMap<String, IViewHelper>();
-        viewHelpers.put("/DarkBook/cliente", new ClienteViewHelper());
-        viewHelpers.put("/DarkBook/paises", new PaisViewHelper());
-        viewHelpers.put("/DarkBook/tipoLogradouro", new TipoLogradouroViewHelper());
-        viewHelpers.put("/DarkBook/tipoResidencia", new TipoResidenciaViewHelper());
-        viewHelpers.put("/DarkBook/bandeira", new BandeiraCartaoViewHelper());
+        viewHelpers.put("/les1/cliente", new ClienteViewHelper());
+        viewHelpers.put("/les1/paises", new PaisViewHelper());
+        viewHelpers.put("/les1/tipoLogradouro", new TipoLogradouroViewHelper());
+       
+        viewHelpers.put("/les1/bandeira", new BandeiraCartaoViewHelper());
         
         
     }

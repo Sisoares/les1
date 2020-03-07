@@ -3,9 +3,26 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/command/ConsultarCommand.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/dao/PaisDAO.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/dominio/Pessoa.java</file>
+            <file>file:/C:/Projetos/les1/web/pages/cadastrocli.jsp</file>
+            <file>file:/C:/Projetos/les1/src/java/util/Resultado.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/command/ExcluirCommand.java</file>
             <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/command/AbstractCommand.java</file>
-            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/command/AlterarCommand.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/controller/Controller.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/entidade/EntidadeDominio.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/dao/ClienteDAO.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/dominio/Cliente.java</file>
+            <file>file:/C:/Projetos/les1/web/pages/index.jsp</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/strategy/AbstractStrategy.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/viewhelper/helper/IHelper.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/viewhelper/ClienteViewHelper.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/fachada/Fachada.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/command/SalvarCommand.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/dao/conexao/Conexao.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/strategy/IStrategy.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/viewhelper/IViewHelper.java</file>
+            <file>file:/C:/Projetos/les1/src/java/br/com/artisanat/fachada/IFachada.java</file>
         </group>
     </open-files>
 </project-private>

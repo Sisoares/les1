@@ -6,6 +6,7 @@
 package br.com.artisanat.command;
 
 import br.com.artisanat.entidade.EntidadeDominio;
+import util.Resultado;
 
 /**
  *
@@ -13,7 +14,8 @@ import br.com.artisanat.entidade.EntidadeDominio;
  */
 public class ConsultarCommand extends AbstractCommand{
     
-    @Override
+    
     public Resultado executar(EntidadeDominio entidade) {
         return fachada.alterar(entidade);
     }
+}

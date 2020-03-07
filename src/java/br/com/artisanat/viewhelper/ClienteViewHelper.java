@@ -7,9 +7,16 @@ package br.com.artisanat.viewhelper;
 
 import br.com.artisanat.command.ConsultarCommand;
 import br.com.artisanat.entidade.EntidadeDominio;
+import br.com.artisanat.viewhelper.helper.IHelper;
+import br.com.artisanat.viewhelper.helper.cliente.AlterarCliente;
+import br.com.artisanat.viewhelper.helper.cliente.ConsultarCliente;
+import br.com.artisanat.viewhelper.helper.cliente.DeletarCliente;
+import br.com.artisanat.viewhelper.helper.cliente.SalvarCliente;
 import java.util.HashMap;
+import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import util.Resultado;
 
 /**
  *
@@ -42,5 +49,8 @@ public class ClienteViewHelper implements IViewHelper {
     public void setEntidade(Resultado resultado, HttpServletResponse response) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+
+    
     
 }

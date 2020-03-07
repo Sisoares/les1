@@ -8,6 +8,7 @@ package br.com.artisanat.viewhelper.helper;
 import br.com.artisanat.entidade.EntidadeDominio;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletResponse;
+import util.Resultado;
 
 /**
  *

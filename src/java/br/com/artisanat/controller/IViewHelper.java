@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.artisanat.viewhelper;
+package br.com.artisanat.controller;
 
 import br.com.artisanat.entidade.EntidadeDominio;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import util.Resultado;
 
 /**
  *
  * @author simon
  */
-interface IViewHelper {
+class IViewHelper {
+
+    EntidadeDominio getEntidade(HttpServletRequest request) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
-    EntidadeDominio getEntidade(HttpServletRequest request);
-    
-    void setEntidade(Resultado resultado, HttpServletResponse response);
 }

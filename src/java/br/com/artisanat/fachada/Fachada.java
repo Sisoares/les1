@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package br.com.artisanat.fachada;
+import br.com.artisanat.dao.IDAO;
+import br.com.artisanat.strategy.IStrategy;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;

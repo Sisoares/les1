@@ -6,7 +6,8 @@
 package br.com.artisanat.command;
 
 import br.com.artisanat.entidade.EntidadeDominio;
-import br.com.artisanat.util.Resultado;
+import util.Resultado;
+
 /**
  *
  * @author simon
@@ -14,7 +15,7 @@ import br.com.artisanat.util.Resultado;
 
 public class ExcluirCommand extends AbstractCommand{
     
-    @override
+    
     public Resultado executar(EntidadeDominio entidade) {
          return fachada.excluir(entidade);
     }
