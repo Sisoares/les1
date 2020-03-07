@@ -12,25 +12,24 @@
          <title>Artisanat</title>
    
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
     <!-- animate CSS -->
-    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="../css/animate.css" type="text/css">
     <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
     <!-- font awesome CSS -->
-    <link rel="stylesheet" href="css/all.css" type="text/css">
+    <link rel="stylesheet" href="../css/all.css" type="text/css">
     <!-- flaticon CSS -->
-    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
-    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="../css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="../css/themify-icons.css" type="text/css">
     <!-- font awesome CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
     <!-- swiper CSS -->
-    <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <link rel="stylesheet" href="../css/slick.css" type="text/css">
     <!-- style CSS -->
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
     
-    <link rel="stylesheet" href="WEB-INF/shop_doc/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+  
     
 </head>
 <!--::header part start::-->
@@ -110,7 +109,7 @@
                 </div>
             </div>
         </div>
-        <div class="search_input" id="search_input_box">
+      <!--  <div class="search_input" id="search_input_box">
             <div class="container ">
                 <form class="d-flex justify-content-between search-inner">
                     <input type="text" class="form-control" id="search_input" placeholder="Search Here">
@@ -118,7 +117,7 @@
                     <span class="ti-close" id="close_search" title="Close Search"></span>
                 </form>
             </div>
-        </div>
+        </div>-->
     </header>
     <!-- Header part end-->
 
@@ -154,50 +153,50 @@
           
           <div class="billing_details">
             <div class="row">
-              <div class="col-lg-8">
+              <div class="col-lg-12">
                 <h3>Seus dados</h3>
                 <form class="row contact_form" action="#" method="post" novalidate="novalidate">
                   <div class="col-md-6 form-group p_star">
-                    <input type="text" class="form-control" id="first" name="name" />
+                    <input type="text" class="form-control" id="cli_nome" name="cli_nome" />
                     <span class="placeholder" data-placeholder="Nome completo"></span>
                   </div>
                   
                   <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" id="company" name="company" placeholder="CPF" />
+                    <input type="text" class="form-control" id="cli_cpf" name="cli_cpf" placeholder="CPF" />
                   </div>
                   <div class="col-md-6 form-group p_star">
-                    <input type="text" class="form-control" id="number" name="number" />
+                    <input type="text" class="form-control" id="cli_fone" name="cli_fone" />
                     <span class="placeholder" data-placeholder="Telefone"></span>
                   </div>
                   <div class="col-md-6 form-group p_star">
-                    <input type="text" class="form-control" id="email" name="compemailany" />
+                    <input type="text" class="form-control" id="cli_email" name="cli_email" />
                     <span class="placeholder" data-placeholder="Email"></span>
                   </div>
                   
                   </div>
                   <div class="col-md-12 form-group p_star">
-                    <input type="text" class="form-control" id="add1" name="add1" />
+                    <input type="text" class="form-control" id="cli_logradouro" name="cli_logradouro" />
                     <span class="placeholder" data-placeholder="Logradouro"></span>
                   </div>
                   
                   <div class="col-md-12 form-group p_star">
-                    <input type="text" class="form-control" id="add2" name="numero" />
+                    <input type="text" class="form-control" id="cli_numcasa" name="cli_numcasa" />
                     <span class="placeholder" data-placeholder="Numero"></span>
                   </div>
                   <div class="col-md-12 form-group p_star">
-                    <input type="text" class="form-control" id="add2" name="complemento" />
+                    <input type="text" class="form-control" id="cli_complemento" name="cli_complemento" />
                     <span class="placeholder" data-placeholder="Complemento"></span>
                   </div>
                   <div class="col-md-12 form-group p_star">
-                    <input type="text" class="form-control" id="add2" name="Bairro" />
+                    <input type="text" class="form-control" id="cli_bairro" name="cli_bairro" />
                     <span class="placeholder" data-placeholder="Bairro"></span>
                   </div>
                   <div class="col-md-12 form-group p_star">
-                    <input type="text" class="form-control" id="add2" name="Bairro" />
+                    <input type="text" class="form-control" id="cli_municipio" name="cli_municipio" />
                     <span class="placeholder" data-placeholder="Município"></span>
                   </div>
                   <div class="col-md-12 form-group p_star">
-                    <input type="text" class="form-control" id="add2" name="Bairro" />
+                    <input type="text" class="form-control" id="cli_estado" name="cli_estado" />
                     <span class="placeholder" data-placeholder="Estado">
                       <!--<select name="Estado">
                         <option value="São Paulo">São Paulo</option>

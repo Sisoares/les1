@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.artisanat.command;
+package br.com.artisanat.strategy;
 
 import br.com.artisanat.entidade.EntidadeDominio;
-import br.com.artisanat.util.Resultado;
+
 /**
  *
  * @author simon
  */
-
-public class ExcluirCommand extends AbstractCommand{
+public interface IStrategy {
     
-    @override
-    public Resultado executar(EntidadeDominio entidade) {
-         return fachada.excluir(entidade);
-    }
+    public String processar(EntidadeDominio entidade);
 }

@@ -5,10 +5,18 @@
  */
 package br.com.artisanat.command;
 
+import br.com.artisanat.entidade.EntidadeDominio;
+import util.Resultado;
+
 /**
  *
  * @author simon
  */
-public class SalvarCommand {
+public class SalvarCommand extends AbstractCommand{
+    
+    @Override
+	public Resultado executar(EntidadeDominio entidade) {
+		return fachada.salvar(entidade);
+	}
     
 }
