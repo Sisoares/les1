@@ -20,7 +20,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import br.com.artisanat.viewhelper.helper.cliente;
+
 
 /**
  *
@@ -33,18 +33,19 @@ public class Controller extends HttpServlet {
     private Map<String, IViewHelper> viewsHelpers;
     private ICommand command;
     private EntidadeDominio entidade;
+    private final HashMap<String, IViewHelper> viewHelpers;
     
     public Controller() {
         super();
         
-        this.commands = new HashMap<String, ICommand>();
+        this.commands = new HashMap<>();
         commands.put("SALVAR", new SalvarCommand());
         commands.put("ALTERAR", new AlterarCommand());
         commands.put("EXCLUIR", new ExcluirCommand());
         commands.put("CONSULTAR", new ConsultarCommand());
         
-        this.viewHelpers = new HashMap<String, IViewHelper>();
-        viewHelpers.put("/les1/cliente", new ClienteViewHelper());
+        this.viewHelpers = new HashMap<>();
+        viewHelpers.put("/", new ClienteViewHelper());
         viewHelpers.put("/les1/paises", new PaisViewHelper());
         viewHelpers.put("/les1/tipoLogradouro", new TipoLogradouroViewHelper());
        

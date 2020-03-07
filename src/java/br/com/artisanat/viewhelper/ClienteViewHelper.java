@@ -7,11 +7,7 @@ package br.com.artisanat.viewhelper;
 
 import br.com.artisanat.command.ConsultarCommand;
 import br.com.artisanat.entidade.EntidadeDominio;
-import br.com.artisanat.viewhelper.helper.IHelper;
-import br.com.artisanat.viewhelper.helper.cliente.AlterarCliente;
-import br.com.artisanat.viewhelper.helper.cliente.ConsultarCliente;
-import br.com.artisanat.viewhelper.helper.cliente.DeletarCliente;
-import br.com.artisanat.viewhelper.helper.cliente.SalvarCliente;
+
 import java.util.HashMap;
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
@@ -24,12 +20,12 @@ import util.Resultado;
  */
 public class ClienteViewHelper implements IViewHelper {
     
-    private Map<String, IHelper> helperView;
+    private final Map<String, IViewHelper> helperView;
     
-    private IHelper helper;
+    private IViewHelper helper;
     
     public ClienteViewHelper(){
-        helperView = new HashMap<String, IHelper>();
+        helperView = new HashMap<>();
         helperView.put("CONSULTAR", new ConsultarCliente());
         helperView.put("DELETAR", new DeletarCliente());
         helperView.put("SALVAR", new SalvarCliente());

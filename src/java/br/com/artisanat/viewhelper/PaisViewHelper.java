@@ -8,6 +8,7 @@ package br.com.artisanat.viewhelper;
 import br.com.artisanat.entidade.EntidadeDominio;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import util.Resultado;
 
 /**
  *
@@ -28,6 +29,8 @@ public class PaisViewHelper implements IViewHelper {
     public void setEntidade(Resultado resultado, HttpServletResponse response) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    
     
     
 }
